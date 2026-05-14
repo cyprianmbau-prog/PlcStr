@@ -22,6 +22,11 @@ function showText() {
 
         "<p>Time: " + site.time + "</p>";
 }
+// function to delete the fort jesus button
+function deleteContent() {
+
+    document.getElementById("fortJesus").remove();
+}
 
 // object for hells gate details
 const place = {
@@ -45,6 +50,11 @@ function showName() {
         "<p>Notes: " + place.notes + "</p>" +
 
         "<p>Time: " + place.time + "</p>";
+}
+// function to delete the hells gate button
+function deleteMessage() {
+
+    document.getElementById("hellsGate").remove();
 }
 
 // object to hold maasai mara content
@@ -71,7 +81,7 @@ function getText() {
 
         "<p>time:" + tour.time + "</p>";
 }
-
+// function to delete the maasai button
 function deleteText() {
 
     document.getElementById("Maasai").remove();
