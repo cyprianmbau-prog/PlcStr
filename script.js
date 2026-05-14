@@ -71,3 +71,8 @@ function getText() {
 
         "<p>time:" + tour.time + "</p>";
 }
+
+function deleteText() {
+
+    document.getElementById("Maasai").remove();
+}
