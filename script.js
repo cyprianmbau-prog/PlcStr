@@ -86,3 +86,9 @@ function deleteText() {
 
     document.getElementById("Maasai").remove();
 }
+
+// function to add a visit record
+function addContent() {
+    let text = document.getElementById("visitInput").value;
+    document.getElementById("output").innerHTML = text;
+}
