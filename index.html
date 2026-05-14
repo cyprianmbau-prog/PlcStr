@@ -6,49 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlcStr</title>
 </head>
+<link rel="stylesheet" href="style.css">
 
 <body>
     <!-- heading -->
     <h1>
-        Travel Information storage.
+        TRAVEL INFO. VEIWER
     </h1>
+
+    <section class="first">
+        Here you can veiw all the stored sites of visit using their names.<br>You can the time of the year
+        you visited the site, landmarks near that area,<br> some short notes and location of the site.
+    </section>
+
     <!-- buttons to show places details -->
     <!-- fort jesus details -->
-    <p id="fortJesus"></p>
+    <main class="text">
+        <p id="fortJesus"></p>
 
-    <button id="fortJesus" onclick="showText()">
-        Fort Jesus
-    </button>
-    <button id="fortJesus" onclick="deleteContent()">
-        Delete
-    </button>
+        <button id="fortJesus" onclick="showText()">
+            Fort Jesus
+        </button>
+        <button id="fortJesus" onclick="deleteContent()">
+            Delete
+        </button>
 
-    <!-- hells gate -->
-    <p id="hellsGate"></p>
+        <!-- hells gate -->
+        <p id="hellsGate"></p>
 
-    <button id="hellsGate" onclick="showName()">
-        Hells Gate
-    </button>
-    <button id="hellsGate" onclick="deleteMessage()">
-        Delete
-    </button>
+        <button id="hellsGate" onclick="showName()">
+            Hells Gate
+        </button>
+        <button id="hellsGate" onclick="deleteMessage()">
+            Delete
+        </button>
 
-    <!-- maasai mara -->
-    <p id="Maasai"></p>
+        <!-- maasai mara -->
+        <p id="Maasai"></p>
 
-    <button id="Maasai" onclick="getText()">
-        Maasai mara
-    </button>
-    <button id="Maasai" onclick="deleteText()">
-        Delete
-    </button><br><br>
+        <button id="Maasai" onclick="getText()">
+            Maasai mara
+        </button>
+        <button id="Maasai" onclick="deleteText()">
+            Delete
+        </button><br><br>
 
-    <!-- adding a new record -->
-    <label>Add a visit record</label><br>
-    <input id="visitInput" placeholder="write your visit record here"><br>
-    <button onclick="addContent()">ADD</button><br>
-    <p id="output"></p>
+        <!-- adding a new record -->
+        <label>Add a visit record</label><br>
+        <input id="visitInput" placeholder="write your visit record here"><br>
+        <button onclick="addContent()">ADD</button><br>
+        <p id="output"></p>
+    </main>
 
+    <!-- page footer -->
+    <footer>
+        Enjoy using the site.
+    </footer>
     <!-- js link -->
     <script src="script.js"></script>
 </body>

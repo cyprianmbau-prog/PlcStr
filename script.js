@@ -92,3 +92,4 @@ function addContent() {
     let text = document.getElementById("visitInput").value;
     document.getElementById("output").innerHTML = text;
 }
+
