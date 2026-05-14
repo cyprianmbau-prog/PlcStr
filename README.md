@@ -1,4 +1,4 @@
-# PlcStr
+# VISITED PLACES VEIWER
 
 **Description**\
 This project is a website page build using HMTL,CSS and Javascript.\
