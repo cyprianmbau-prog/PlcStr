@@ -1,22 +1,24 @@
-const destinations = [
+// object for fort jesus
+const site = {
 
-    {
-        location: "Mombasa",
-        landmarks: "Indian ocean",
-        notes: "the veiw was best.",
+    location: "Mombasa",
+    landmark: "Indian Ocean",
+    notes: "Beautiful coastal attraction"
 
-    },
+};
 
-    {
-        location: "Naivasha",
-        landmarks: "Lake Naivasha",
-        notes: "the journey was long but veiw was enjoyable",
-    },
+// function to display  stored object content
+function showText() {
 
-    {
-        location: "Kenya",
-        landmarks: "Highlands and thick forests",
-        notes: "quite enjoyalable and also fearful due to greate hieghts.",
-    }
-]
-function showText(index) { }
+    document.getElementById("fortJesus").innerHTML =
+
+
+        "Location:" + site.location +
+
+        "<p>Landmark: " + site.landmark + "</p>" +
+
+
+        "<p>Notes: " + site.notes + "</p>";
+}
+
+
